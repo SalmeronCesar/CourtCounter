@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
         gameOver = new AlertDialog.Builder(MainActivity.this).create();
 
-        //soundFX1 = MediaPlayer.create(this, R.raw.up);
-        //soundFX2 = MediaPlayer.create(this, R.raw.down);
-        //soundFX3 = MediaPlayer.create(this, R.raw.reset);
+        soundFX1 = MediaPlayer.create(this, R.raw.up);
+        soundFX2 = MediaPlayer.create(this, R.raw.down);
+        soundFX3 = MediaPlayer.create(this, R.raw.reset);
     }
 
     public void click1(View view) {
